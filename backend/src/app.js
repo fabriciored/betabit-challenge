@@ -7,8 +7,6 @@ const port = 3001
 app.use(bodyParser.json())
 
 
-
-
 const App = () => {
 
     app.get('/', (request, response) => {
