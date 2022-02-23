@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "arrow-spacing": "error",
+        "quotes": "error",
+        "no-trailing-spaces": "error",
+
+        "no-unused-vars" : "error",
+        "no-unreachable": "error",
+        "no-undef-init": "error",
+
+        "camelcase": "warn",
+        "no-empty-function": "warn"
+    }
+}
