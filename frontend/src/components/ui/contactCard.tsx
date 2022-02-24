@@ -132,9 +132,8 @@ export default function ContactCard(props: ContactProps) {
           style={customStyles}
           contentLabel="Example Modal"
         >
-          <div>I am a modal</div>
           <form onSubmit={handleSubmit}>
-      <Heading>New Contact</Heading>
+      <Heading>Edit Contact</Heading>
       <Input w={'12rem'} h={'2rem'} m={'5px'} border={'1px solid'} borderRadius={'5px'}
         type="name"
         name="name"
