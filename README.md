@@ -11,8 +11,7 @@ Separadamente nas pastar frontend e backend, rode o comando:
 `npm install`, e depois `npm run dev`.
 
 ### Banco de dados
-Com o MySQL instalado, crie uma tabela chamada phonebook_dev.
-No app Backend, crie um arquivo .env e especifique:
+Com o MySQL instalado, no app Backend, crie um arquivo .env e especifique:
 
 `DB_NAME=phonebook_dev`
 
@@ -22,7 +21,11 @@ No app Backend, crie um arquivo .env e especifique:
 
 `DB_HOST= host do banco de dados`
 
-Depois execute `sequelize db:migrate` para criar as tabelas no MySQL.
+Execute `npx sequelize db: create`
+
+Ou crie manualmente um banco de dados SQL chamado phonebook_dev(opcional)
+
+Depois execute `npx sequelize db:migrate` para criar as tabelas no MySQL.
 
 
 ### Build
