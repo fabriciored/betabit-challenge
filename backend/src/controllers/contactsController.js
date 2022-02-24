@@ -37,6 +37,7 @@ router.put('/:id', async(request, response) => {
     response.status(200).json({message: 'Contact updated'})
 })
 
+
 router.delete('/:id', async(request, response) => {
     await Contact.destroy({
         where: {
