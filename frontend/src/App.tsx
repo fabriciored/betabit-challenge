@@ -10,7 +10,6 @@ import {
   useParams,
 } from "react-router-dom";
 
-import "./App.css";
 import Home from "./components/pages/home";
 
 function App() {
