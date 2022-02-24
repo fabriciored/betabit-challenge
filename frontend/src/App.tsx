@@ -5,6 +5,7 @@ import {
   Routes,
   Route,
   Link,
+  Outlet,
   useMatch,
   useParams,
 } from "react-router-dom";
@@ -25,9 +26,11 @@ function App() {
           paddingBottom: "1rem",
         }}
       >
+        <Link to="/">Home</Link> |{" "}
         <Link to="/contacts">Contacts</Link> |{" "}
         <Link to="/about">About</Link>
       </nav>
+      <Outlet />
     </div>
   );
 }

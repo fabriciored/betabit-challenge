@@ -1,4 +1,4 @@
-export default function About() {
+export default function AboutPage() {
     return (
       <main style={{ padding: "1rem 0" }}>
         <h2>About</h2>
