@@ -7,7 +7,7 @@ se pudesse fazer as operações de Criar, Ler, Atualizar e Deletar.
 
 # Instalação
 ### Desenvolvimento
-Separadamente nas pastar frontend e backend, rode o comando:
+Separadamente nas pastas frontend e backend, rode o comando:
 `npm install`, e depois `npm run dev`.
 
 ### Banco de dados
